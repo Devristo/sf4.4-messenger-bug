@@ -1,0 +1,10 @@
+parameters:
+    env(MESSENGER_TRANSPORT): sync://
+
+framework:
+    messenger:
+        transports:
+             default: '%env(MESSENGER_TRANSPORT)%'
+
+        routing:
+             '*': default
