@@ -1,3 +1,5 @@
+Reproducer for https://github.com/symfony/symfony/issues/34115
+
 Steps to reproduce:
 
 ```shell script
